@@ -135,6 +135,11 @@ header{
     gap: 32px;
 }
 
+.hero-bottom .hero-boxs1,.hero-bottom .hero-boxs2{
+    display: flex;
+    gap: 32px;
+}
+
 
 
 .hero-box p{
@@ -178,17 +183,14 @@ header{
     background: #7743DB;
 }
 
+.hero-box.box1 img, .hero-box.box2 img{
+    margin-bottom: 18px;
+}
+
 
 /* Mobile Devices */
 @media (max-width: 480px) {
-    /* .container{
-        max-width: 90%;
-        margin: 0 auto;
-    } */
-    /* header{
-        position: relative;
-    } */
-
+    
     nav{
         position: relative;
     }
@@ -237,12 +239,10 @@ header{
         font-weight: 300;
         line-height: 109%; 
         margin-bottom: 32px;
-        /* width: 332px; */
     }
 
     .hero-text button{
-        /* width: 170px;
-        height: 50px; */
+        
         padding: 12px 24px;
         justify-content: center;
         align-items: center;
@@ -330,8 +330,7 @@ header{
     
     
     .hero-box.box1{
-        /* width: 160px;
-        height: 180px; */
+      
         padding: 10px;
         flex-direction: column;
         justify-content: center;
@@ -352,8 +351,7 @@ header{
     
 
     .hero-box.box2{
-        /* width: 160px;
-        height: 180px; */
+        
         padding: 10px;
         flex-direction: column;
         justify-content: center;
